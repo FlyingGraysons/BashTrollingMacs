@@ -16,7 +16,8 @@ echo 'Please write it down, it will not be automatically cached'
 
 # And then BOOM
 # Drop the hammer
-nohup sh -c "while true; do osascript -e 'repeat
+nohup sh -c "while true; do osascript -e '
+repeat
 	set volume 10
 	tell application \"Safari\" to activate
 	tell application \"Safari\"
