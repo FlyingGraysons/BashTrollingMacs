@@ -10,7 +10,7 @@ Unfortunately, many of these are not yet finished, and have some problems. Any h
 
 # ehh.sh
 This program creates infinite files named '.woah.poop' followed by a number.
-Each file is one gb. This obviously will eat up space.
+Each file is one gb. This obviously will eat up space. It iterates 10000 times or so. Be careful.
 Like all the others, I don't know if it works, because I'm not stupid enough to test it.
 It also has the added benefit of running the process in the background and running it through even a logout. It also clears the history, which makes it annoying to trace.
 The part that sucks is that this will eat your whole hard drive and there is no stopping it. (If I coded it right--so probably not)
