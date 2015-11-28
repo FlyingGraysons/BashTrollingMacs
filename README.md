@@ -40,3 +40,6 @@ However, the problem comes when someone sees, 'Hey! It's this dumb terminal thin
 We solve that problem by using nohup and &, making it run in the background and with no output. Unfortunately, this does not work right now. Like all the others. Damn.
 
 PS-- I fixed the problem with the nohup and stuff so it might work now, please take testing into your own (or preferable someone elses') #
+
+# opener.sh
+This file, when run opens every app installed in the /Applications, ~/Applications, and /Application/Utilities folders, then tells the user that their mac will self destruct.
